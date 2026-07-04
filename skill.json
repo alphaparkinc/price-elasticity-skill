@@ -1,0 +1,56 @@
+{
+  "name": "price-elasticity-skill",
+  "version": "1.0.0",
+  "description": "Calculate price elasticity of demand, find revenue-maximizing price points, and simulate revenue impact of price changes for e-commerce products.",
+  "author": "alphaparkinc",
+  "category": "analytics",
+  "tags": [
+    "pricing",
+    "elasticity",
+    "revenue",
+    "optimization",
+    "economics"
+  ],
+  "inputs": {
+    "price_demand_data": {
+      "type": "array",
+      "description": "Historical data points: [{price, units_sold}]."
+    },
+    "current_price": {
+      "type": "number",
+      "description": "Current selling price."
+    },
+    "cost_per_unit": {
+      "type": "number",
+      "description": "Cost per unit (COGS)."
+    },
+    "price_range": {
+      "type": "object",
+      "description": "Min/max price bounds to test: {min, max}."
+    }
+  },
+  "outputs": {
+    "elasticity": {
+      "type": "number",
+      "description": "Price elasticity coefficient."
+    },
+    "elasticity_type": {
+      "type": "string",
+      "description": "Elastic / Inelastic / Unit Elastic."
+    },
+    "optimal_price": {
+      "type": "number",
+      "description": "Revenue-maximizing price point."
+    },
+    "optimal_margin_price": {
+      "type": "number",
+      "description": "Margin-maximizing price point."
+    },
+    "revenue_curve": {
+      "type": "array",
+      "description": "Simulated revenue at each test price point."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
