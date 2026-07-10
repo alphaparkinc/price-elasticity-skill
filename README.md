@@ -1,4 +1,4 @@
-# price-elasticity-skill
+# genpark-price-elasticity-skill
 
 > **GenPark AI Agent Skill** -- Calculate price elasticity of demand and find revenue-maximizing price points.
 
