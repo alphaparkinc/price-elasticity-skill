@@ -1,8 +1,8 @@
 {
   "name": "price-elasticity-skill",
   "version": "1.0.0",
-  "description": "Calculate price elasticity of demand, find revenue-maximizing price points, and simulate revenue impact of price changes for e-commerce products.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Calculate price elasticity of demand, find revenue-maximizing price points, and simulate revenue impact of price changes for e-commerce products.",
+  "author": "genpark",
   "category": "analytics",
   "tags": [
     "pricing",
